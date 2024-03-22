@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+	text-align: center;
+	background-image: url("./Images/pexels-karolina-grabowska-4041429.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.logobar {
+	/* border: solid 2px red; */
+	background-color: #1b1e18;
+	border-radius: 1rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+h1 {
+	border: solid 1px green;
+	background-color: #fffdfa;
+	font-size: 10rem;
+	font-family: "Open Sans", sans-serif;
+	color: green
+}
+
+.linksbar {
+	/* border: solid 2px red; */
+	background-color: #eaa79c;
+	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
+	border-radius: 2rem;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 10rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+a {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+	color: #1b1e18;
+	text-decoration: none;
+}
+
+
+section {
+	text-align: center;
+}
+
+p {
+	font-size: 5rem;
+}
+
+.firstpgtxt {
+	/* border: solid 1px red; */
+	font-family: "Open Sans", sans-serif;
+	border-radius: 2rem;
+	padding: 1rem;
+	width: 100rem;
+	max-width: 100%;
+	margin: 0 auto;
+	margin: auto;
+	background-color: #eaa79c;
+	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
+
+}
+
+
+footer {
+	/* border: solid 2px red; */
+	background-color: #eaa79c;
+	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
+	border-radius: 2rem;
+	padding: 1rem;
+	font-size: 75px;
+	display: flex;
+	justify-content: space-evenly;
+	overflow: hidden;
+}
+
+.allflowers {
+	/* border: solid 1px red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+
+}
+
+.allflowers img {
+	width: 50rem;
+	height: 50rem;
+	object-fit: cover;
+	margin: 0.5rem;
+	border-radius: 2rem;
+}
+
+.flowerstxt {
+	/* border: solid 1px red; */
+	font-family: "Open Sans", sans-serif;
+	border-radius: 2rem;
+	padding: 1rem;
+	width: 100rem;
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: #eaa79c;
+	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
+}
+
+.allplants {
+	/* border: solid 1px red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.allplants img {
+	width: 50rem;
+	height: 50rem;
+	object-fit: cover;
+	margin: 0.5rem;
+	border-radius: 2rem;
+}
+
+.plantstxt {
+	/* border: solid 1px red; */
+	font-family: "Open Sans", sans-serif;
+	border-radius: 2rem;
+	padding: 1rem;
+	width: 100rem;
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: #eaa79c;
+	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
+}
+
+.plantbox {
+	border: solid 5px green;
+	background-color: #fffdfa;
+	border-radius: 2rem;
+}
+
+.flowersbox {
+	border: solid 5px green;
+	background-color: #fffdfa;
+	border-radius: 2rem;
+}
+
+.titles {
+	/* border: solid 5px green; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.titles2 {
+	background-color: green;
+	color: #fffdfa;
+	border-radius: 10rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
