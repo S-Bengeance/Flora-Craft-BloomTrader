@@ -16,9 +16,9 @@ body {
 }
 
 h1 {
-	border: solid 1px green;
+	border: solid 1px green;	
 	background-color: #fffdfa;
-	font-size: 10rem;
+	font-size: 10vw;
 	font-family: "Open Sans", sans-serif;
 	color: green
 }
@@ -30,7 +30,7 @@ h1 {
 	border-radius: 2rem;
 	max-width: 100%;
 	margin: 0 auto;
-	font-size: 10rem;
+	font-size: 10vw;
 	display: flex;
 	justify-content: space-around;
 }
@@ -42,13 +42,8 @@ a {
 	text-decoration: none;
 }
 
-
-section {
-	text-align: center;
-}
-
 p {
-	font-size: 5rem;
+	font-size: 5vw;
 }
 
 .firstpgtxt {
@@ -56,12 +51,12 @@ p {
 	font-family: "Open Sans", sans-serif;
 	border-radius: 2rem;
 	padding: 1rem;
-	width: 100rem;
-	max-width: 100%;
+	width: 75vw;
+	max-width: 75vw;
 	margin: 0 auto;
 	margin: auto;
-	background-color: #eaa79c;
-	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
+	background-color: rgba(234, 167, 156, 0.5);
+	background-image: linear-gradient(to right, rgba(234, 167, 156, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(234, 167, 156, 1) 100%);
 
 }
 
@@ -71,11 +66,11 @@ footer {
 	background-color: #eaa79c;
 	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
 	border-radius: 2rem;
+	max-width: 100%;
 	padding: 1rem;
-	font-size: 75px;
+	font-size: 8vw;
 	display: flex;
 	justify-content: space-evenly;
-	overflow: hidden;
 }
 
 .allflowers {
@@ -84,12 +79,11 @@ footer {
 	flex-direction: row;
 	justify-content: space-evenly;
 
-
 }
 
 .allflowers img {
-	width: 50rem;
-	height: 50rem;
+	width: 25vw;
+	height: 25vw;
 	object-fit: cover;
 	margin: 0.5rem;
 	border-radius: 2rem;
@@ -115,8 +109,8 @@ footer {
 }
 
 .allplants img {
-	width: 50rem;
-	height: 50rem;
+	width: 25vw;
+	height: 25vw;
 	object-fit: cover;
 	margin: 0.5rem;
 	border-radius: 2rem;
@@ -155,6 +149,7 @@ footer {
 
 .titles2 {
 	background-color: green;
+	background-color: radial-gradient(to right, green 0%, white 50%, green 100%);
 	color: #fffdfa;
 	border-radius: 10rem;
 	padding-left: 5rem;
@@ -162,3 +157,4 @@ footer {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 }
+
