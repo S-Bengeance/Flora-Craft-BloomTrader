@@ -134,13 +134,13 @@ footer {
 }
 
 .plantbox {
-	border: solid 5px green;
+	border: solid 5px mediumseagreen;
 	background-color: #fffdfa;
 	border-radius: 2rem;
 }
 
 .flowersbox {
-	border: solid 5px green;
+	border: solid 5px mediumseagreen;
 	background-color: #fffdfa;
 	border-radius: 2rem;
 }
@@ -152,7 +152,7 @@ footer {
 }
 
 .titles2 {
-	background-color: green;
+	background-color: mediumseagreen;
 	color: #fffdfa;
 	border-radius: 10rem;
 	padding-left: 5rem;
@@ -184,4 +184,8 @@ input[type="submit"] {
     width: 10vw;
     height: 5vw; 
     font-size: 5vw;
+}
+
+iframe {
+	margin-bottom: 5vw;
 }
