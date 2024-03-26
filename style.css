@@ -45,6 +45,8 @@ a {
 
 .hyperlink:hover{
 	color: mediumseagreen;
+	font-size: 120%;
+	
 }
 
 p {
@@ -153,7 +155,6 @@ footer {
 
 .titles2 {
 	background-color: green;
-	background-color: radial-gradient(to right, green 0%, white 50%, green 100%);
 	color: #fffdfa;
 	border-radius: 10rem;
 	padding-left: 5rem;
@@ -162,3 +163,40 @@ footer {
 	padding-bottom: 0.5rem;
 }
 
+fieldset{
+	font-family: "Open Sans", sans-serif;
+	background-color: #eaa79c;
+	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
+	border-radius: 2rem;
+	padding: 5rem;
+	width: 75vw;
+	max-width: 75vw;
+	margin: 0 auto;
+	margin: auto;
+	display: block;
+  	border: 2px groove (internal value);	
+}	
+
+label{
+	font-size: 5vw;
+	display: block;
+}
+
+input{
+	font-size: 5vw;
+}
+
+fieldset div {
+    margin-bottom: 2vw;
+}
+
+textarea {
+    width: 100%;
+	font-size: 5vw;
+}
+
+input[type="submit"] {
+    width: 15vw;
+    height: 5vw;
+    font-size: 5vw; 
+}
