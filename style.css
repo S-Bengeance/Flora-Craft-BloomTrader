@@ -162,6 +162,7 @@ footer {
 }
 
 fieldset {
+	font-family: "Open Sans", sans-serif;
 	background-color: #eaa79c;
 	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
 	width: 75%;
