@@ -16,11 +16,11 @@ body {
 }
 
 h1 {
-	border: solid 1px green;	
+	border: solid 1px mediumseagreen;	
 	background-color: #fffdfa;
 	font-size: 10vw;
 	font-family: "Open Sans", sans-serif;
-	color: green
+	color: mediumseagreen
 }
 
 .linksbar {
@@ -36,10 +36,15 @@ h1 {
 }
 
 a {
+	
 	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 	color: #1b1e18;
 	text-decoration: none;
+}
+
+.hyperlink:hover{
+	color: mediumseagreen;
 }
 
 p {
@@ -142,7 +147,6 @@ footer {
 
 .titles {
 	/* border: solid 5px green; */
-	width: 100%;
 	display: flex;
 	justify-content: center;
 }
