@@ -100,7 +100,7 @@ footer {
 	padding: 1rem;
 	width: 75vw;
 	max-width: 75vw;
-	margin: 5% auto;
+	margin: auto;
 	background-color: #eaa79c;
 	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
 }
@@ -128,7 +128,7 @@ footer {
 	padding: 1rem;
 	width: 75vw;
 	max-width: 75vw;
-	margin: 5% auto;
+	margin: auto;
 	background-color: #eaa79c;
 	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
 }
@@ -162,7 +162,6 @@ footer {
 }
 
 fieldset {
-    margin-bottom: 20px;
 	background-color: #eaa79c;
 	background-image: linear-gradient(to right, #eaa79c 0%, #ffffff 50%, #eaa79c 100%);
 	width: 75%;
